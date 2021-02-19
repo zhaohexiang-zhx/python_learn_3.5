@@ -1,4 +1,10 @@
 # Default ignored files
+
+# 根目录下创建gitignore.txt；
+# 编辑gitignore.txt，写下你的规则，例如加上node_modules/；
+# 打开命令行窗口，切换到根目录（可以直接在文件夹上面的地址栏输入cmd回车）；
+# 执行命令ren gitignore.txt .gitignore
+
 /shelf/
 /workspace.xml
 /venv
