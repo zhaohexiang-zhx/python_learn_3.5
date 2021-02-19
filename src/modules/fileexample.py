@@ -39,6 +39,6 @@ def write_utf8(in_file):
 
 if __name__ == "__main__":
     # open_example("fileexample.txt")
-    open_utf8("fileexample.txt")
+    write_utf8("fileexample.txt")
 
 
