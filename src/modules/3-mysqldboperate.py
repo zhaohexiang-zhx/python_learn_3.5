@@ -69,4 +69,12 @@ if __name__=="__main__":
     db_passwd = "123456"
     db_name = "test"
 
+    db_operation = DBOperateAction(host, db_account, db_passwd, db_name, port=3306)
+    db_operation.connect()
+    select_sql = "insert into countries (Name, CountryCode, ShortCountryCode, region) VALUES ('testerhome', '223', 'TH', 'Asia')"
+    print(select_sql)
+
+    results = db_operation.get_all_result(select_sql)
+    db_operation.close_connection()
+    print(results)
 
