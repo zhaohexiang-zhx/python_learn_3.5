@@ -7,5 +7,5 @@
 
 /venv
 /src/modules/1-you.log.1
-/modules/*.tar.gz
+/src/modules/*.tar.gz
 
