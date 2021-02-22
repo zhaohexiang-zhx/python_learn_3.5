@@ -24,8 +24,6 @@ class Student(Person):
         else:
             return name
 
-
-
 if __name__ == "__main__":
     stu = Student("小赵", "Female", "Beijing", 6)
     # get_name()方法子类中有，就访问子类的方法，子类中没有，去访问父类的方法

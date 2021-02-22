@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-#多重继承
+# 多重继承
 
 from classexp3 import Student
 

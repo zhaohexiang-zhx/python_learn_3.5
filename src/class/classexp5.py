@@ -41,6 +41,7 @@ if __name__ == "__main__":
     per = Person("huahua", "Female", "Shandong")
     print(per.set_new1_province("Shanghai"))
     print(per.set_new2_province("Dongfangmingzhu"))
+    # property方法，不用带括号也能访问
     print(per.get_sex)
 
 

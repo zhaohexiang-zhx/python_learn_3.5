@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-# 私有变量 __xxx 类内部可以访问，外部不能访问
+# 私有变量 __xxx class内部可以访问，外部不能访问
 
 class Person:
 

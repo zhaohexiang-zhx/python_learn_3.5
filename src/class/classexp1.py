@@ -5,16 +5,17 @@
 
 class Person(object):
 
-    # 类变量
+    # 类变量，全局变量
     total_person = 0
 
     # 构造函数  self实例对象
     def __init__(self, name, sex, score):
         print("Init the class")
+        # 实例变量，为了使在各个方法中能够共享
         self.name = name
         self.sex = sex
         self.score = score
-        # 类变量
+        # 类变量，通过“类名.变量名”访问
         Person.total_person += 1
 
     def get_name(self):
